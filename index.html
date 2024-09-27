@@ -8,12 +8,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header_top">
-                <img src="img/logo.png" alt="Alivio">
+                    <div class="menu">
+                        <nav role="navigation">
+                            <div id="menuToggle">
+                            <input type="checkbox" />
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <ul id="menu">
+                                    <li><a href="/"><img src="img/logo.png" alt="Alivio"></a></li>
+                                    <li><a href="#">Why Alivio</a></li>
+                                    <li><a href="#">Solutions</a></li>
+                                    <li><a href="#">Community</a></li>
+                                    <li><a href="#">Pricing</a></li>
+                                    <li><img class="phonenum" src="img/phone-1.svg" alt="Звонок бесплатный"><a href="tel:+79161234567">+7 (916) 123-45-67</a></li>
+                            </ul>
+                            </div>
+                        </nav>
+                        <div><a href="/"><img src="img/logo.png" alt="Alivio" class="logo"></a></div>
                 <div class="nav">
                     <ul>
                         <li><a href="#">Why Alivio</a></li>
@@ -22,13 +40,14 @@
                         <li><a href="#">Pricing</a></li>
                     </ul>
                 </div>
+            </div>
                 <div class="userblock">
-                    <p>Sign in</p>
+                    <p><a href="/">Sign in</a></p>
                     <button>Start Trial</button>
                 </div>
             </div>
         </div>
-    </header>
+    </header> 
         <section id="main">
         <div class="container">
             <div class="description">
@@ -65,7 +84,64 @@
                 </div>
             </div>
         </div>
+    </section> 
+    <section id="video">
+        <div class="container">
+            <div class="success">
+                <div class="text">
+                    <h2>Let's hear about Kayla's success story</h2>
+                    <p>See how well Alivio works in a real customer’s life. </p>
+                    <button>Let’s get started</button>
+                </div>
+                <div class="img">
+                    <img src="img/play-white.png" alt="Let's hear about Kayla's success story">
+                    <img src="img/section-3-img-1.png" alt="Let's hear about Kayla's success story">
+                </div>
+            </div>
+        </div>
     </section>
+    <section id="product">
+        <div class="container">
+            <div class="product_content">
+                <div class="product_area">
+                    <div class="product_img">
+                        <img src="img/section-4-img-1.jpg" alt="Our product">
+                    </div>
+                    <div class="product_description">
+                        <div class="subtitle">Our product</div>
+                        <h2>You tell us your stress, We make your diary</h2>
+                        <p>Everyone experiences it, and in different ways. 
+                            <br>Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+                        <button>Find Your Way</button>
+                    </div>
+                </div>
+                <div class="product_customized">
+                    <p class="product_customized_header">Customized For</p>
+                    <hr>
+                    <img src="img/section-4-img-1-.png" alt="Customized For">
+                    <p class="product_customized_name">Mikayla</p>
+                    <div class="product_customized_content">
+                        <p class="product_customized_title">Your custom contents</p>
+                        <ul>
+                            <li>Understand Your Stress</li>
+                            <li>Anger Management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="/"><img src="img/logo-big.png" alt="Alivio site"></a></li>
+                <li><a href="#">Why Alivio</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+        </div>
+    </footer> 
 
 </body>
 </html>
